@@ -1,0 +1,56 @@
+body{
+    background: #f3f3f3;
+}
+.caixa  {
+    position: relative;
+    width: 940px;
+    margin: 50px auto 0 auto ;
+    background: white;
+    box-shadow: 0px 0 30px 10px rgb(231, 231, 231);
+    border-radius: 10px 10px 0 0 ;
+}
+
+.titulo-imagem{
+    padding: 80px 0 50px 0;
+    text-align: center;
+    
+}
+
+img{
+    border-radius: 120px;
+}
+
+/* main */
+
+main{
+    font-family: 'Roboto Mono', monospace;
+    position: relative;
+    width: 940px;
+    margin:  0 auto ;
+    background: white;
+
+}
+.titulo{
+    text-align: center;
+    font-size: 28px;
+    padding: 0 0 20px 0;
+}
+
+p{
+    text-align: center;
+    font-size: 16px;
+    text-justify: auto;
+
+     
+}
+
+
+/* footer */
+
+footer{
+    position: relative;
+    width: 940px;
+    margin: 0 auto ;
+    background: white;
+
+}
