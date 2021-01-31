@@ -5,7 +5,7 @@ header  {
     font-family: 'Roboto Mono', monospace;
     position: relative;
     width: 600px;
-    height: 650px;
+    height: 550px;
     margin: 30px auto 0 auto ;
     padding-bottom: 0%;
     background: white;
@@ -38,8 +38,8 @@ nav{
     padding: 0px 0px 0 0;
 }
 nav li {
-    display: inline; 
-    margin: 0 10 0 7;
+    display: inline-flex; 
+    padding: 0px 10px 10px 47px;
 }
 
 nav button {
@@ -60,4 +60,30 @@ nav button:hover{
 nav a{
     text-decoration: none;
     color: cornsilk;
+}
+
+@media screen and (max-width:480px){
+    header  {
+        font-family: 'Roboto Mono', monospace;
+        position: relative;
+        width: 300px;
+        height: 750px;
+        margin: 30px auto 0px auto ;
+        padding-bottom: 0%;
+        background: white;
+        box-shadow: 0px 0 30px 10px rgb(231, 231, 231);
+        border-radius: 10px ;
+    }
+
+    img{
+        display: inline-block;
+        width: 45%;
+        margin: 30px 90px 0px;
+        border-radius: 120px;
+    }
+
+    nav li {
+        display: inline-flex;
+        padding: 0px 5px 15px 0px;
+
 }
